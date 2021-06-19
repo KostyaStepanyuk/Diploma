@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50A391B3-B597-4005-BF3B-127A55FB33A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DiplomaTest</RootNamespace>
+    <AssemblyName>DiplomaTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus, Version=5.6.4.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.5.6.4\lib\net45\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.15.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.5.15.3\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Desktop\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.11.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.11\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="Svg, Version=2.4.3.29446, Culture=neutral, PublicKeyToken=12a0bac221edeae2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Svg.2.4.3\lib\Svg.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Win32Interop.Dwmapi, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Win32Interop.Dwmapi.1.0.1\lib\Win32Interop.Dwmapi.dll</HintPath>
+    </Reference>
+    <Reference Include="Win32Interop.Gdi32, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Win32Interop.Gdi32.1.0.1\lib\Win32Interop.Gdi32.dll</HintPath>
+    </Reference>
+    <Reference Include="Win32Interop.Kernel32, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Win32Interop.Kernel32.1.0.1\lib\Win32Interop.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="Win32Interop.User32, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Win32Interop.User32.1.0.1\lib\Win32Interop.User32.dll</HintPath>
+    </Reference>
+    <Reference Include="Win32Interop.Uxtheme, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Win32Interop.Uxtheme.1.0.1\lib\Win32Interop.Uxtheme.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Child forms\BillsOfLading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\BillsOfLading.Designer.cs">
+      <DependentUpon>BillsOfLading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\DisbursementBillOfLading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\DisbursementBillOfLading.Designer.cs">
+      <DependentUpon>DisbursementBillOfLading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\ImplementationStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\ImplementationStat.Designer.cs">
+      <DependentUpon>ImplementationStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\ReceiptsStat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\ReceiptsStat.Designer.cs">
+      <DependentUpon>ReceiptsStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Remains.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Remains.Designer.cs">
+      <DependentUpon>Remains.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\StaleProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\StaleProducts.Designer.cs">
+      <DependentUpon>StaleProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\StoreInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\StoreInfo.Designer.cs">
+      <DependentUpon>StoreInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetBillsOfLadingMain.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingMain.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetBillsOfLadingSecondary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingSecondary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetCheque.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetCheque.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetChequeView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetChequeView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetChequeViewSecond.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetChequeViewSecond.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetDisbursementBOLSecondary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLSecondary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetDisbursementBOLView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetOrdersView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetOrdersView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetOrdersViewMain.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetOrdersViewMain.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetOrdersViewSecondary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetOrdersViewSecondary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetProductsForCashier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetProductsForCashier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetProductsForDBOL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetProductsForDBOL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetRemainsFullView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetRemainsFullView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetRemainsView.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetRemainsView.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetSuppliers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetSuppliers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Main forms\CashierMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\CashierMenu.Designer.cs">
+      <DependentUpon>CashierMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main forms\DeputyDirectorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\DeputyDirectorMenu.Designer.cs">
+      <DependentUpon>DeputyDirectorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderModel.cs" />
+    <Compile Include="ProductModel.cs" />
+    <Compile Include="ProductsForBillOfLading.cs" />
+    <Compile Include="ProductsForRemains.cs" />
+    <Compile Include="RJDatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditNewBillOfLading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditNewBillOfLading.Designer.cs">
+      <DependentUpon>AddEditNewBillOfLading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditNewDisbursementBillOfLading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditNewDisbursementBillOfLading.Designer.cs">
+      <DependentUpon>AddEditNewDisbursementBillOfLading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\BillsOfLadingViewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\BillsOfLadingViewEdit.Designer.cs">
+      <DependentUpon>BillsOfLadingViewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\ChequeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\ChequeView.Designer.cs">
+      <DependentUpon>ChequeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\NewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\NewOrder.Designer.cs">
+      <DependentUpon>NewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Products.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Products.Designer.cs">
+      <DependentUpon>Products.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Suppliers2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Suppliers2.Designer.cs">
+      <DependentUpon>Suppliers2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetProducts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetProducts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DiplomaTestDataSetUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DiplomaTestDataSetUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditViewSupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditViewSupplierForm.Designer.cs">
+      <DependentUpon>AddEditViewSupplierForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditViewUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AddEditViewUserForm.Designer.cs">
+      <DependentUpon>AddEditViewUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Cashiers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Cashiers.Designer.cs">
+      <DependentUpon>Cashiers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\DeputyDirectors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\DeputyDirectors.Designer.cs">
+      <DependentUpon>DeputyDirectors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Directors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Directors.Designer.cs">
+      <DependentUpon>Directors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Suppliers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Suppliers.Designer.cs">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main forms\AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main forms\DirectorMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\DirectorMenu.Designer.cs">
+      <DependentUpon>DirectorMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\AlertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\AlertForm.Designer.cs">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\CommodityExperts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\CommodityExperts.Designer.cs">
+      <DependentUpon>CommodityExperts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Child forms\Managers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Child forms\Managers.Designer.cs">
+      <DependentUpon>Managers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\HelpAndManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\HelpAndManual.Designer.cs">
+      <DependentUpon>HelpAndManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Main forms\CommodityExpertMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main forms\CommodityExpertMenu.Designer.cs">
+      <DependentUpon>CommodityExpertMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\ProductsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\ProductsList.Designer.cs">
+      <DependentUpon>ProductsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\RemainsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\RemainsList.Designer.cs">
+      <DependentUpon>RemainsList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\ViewProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\ViewProductForm.Designer.cs">
+      <DependentUpon>ViewProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Secondary forms\ViewSupplierForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secondary forms\ViewSupplierForm.Designer.cs">
+      <DependentUpon>ViewSupplierForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Child forms\BillsOfLading.resx">
+      <DependentUpon>BillsOfLading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\DisbursementBillOfLading.resx">
+      <DependentUpon>DisbursementBillOfLading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\ImplementationStat.resx">
+      <DependentUpon>ImplementationStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\ReceiptsStat.resx">
+      <DependentUpon>ReceiptsStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Remains.resx">
+      <DependentUpon>Remains.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\StaleProducts.resx">
+      <DependentUpon>StaleProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\StoreInfo.resx">
+      <DependentUpon>StoreInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main forms\CashierMenu.resx">
+      <DependentUpon>CashierMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main forms\DeputyDirectorMenu.resx">
+      <DependentUpon>DeputyDirectorMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\AddEditNewBillOfLading.resx">
+      <DependentUpon>AddEditNewBillOfLading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\AddEditNewDisbursementBillOfLading.resx">
+      <DependentUpon>AddEditNewDisbursementBillOfLading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\BillsOfLadingViewEdit.resx">
+      <DependentUpon>BillsOfLadingViewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\ChequeView.resx">
+      <DependentUpon>ChequeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\NewOrder.resx">
+      <DependentUpon>NewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\Orders.resx">
+      <DependentUpon>Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Products.resx">
+      <DependentUpon>Products.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Suppliers2.resx">
+      <DependentUpon>Suppliers2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\AddEditViewSupplierForm.resx">
+      <DependentUpon>AddEditViewSupplierForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\AddEditViewUserForm.resx">
+      <DependentUpon>AddEditViewUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Cashiers.resx">
+      <DependentUpon>Cashiers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\CommodityExperts.resx">
+      <DependentUpon>CommodityExperts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\DeputyDirectors.resx">
+      <DependentUpon>DeputyDirectors.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Directors.resx">
+      <DependentUpon>Directors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Suppliers.resx">
+      <DependentUpon>Suppliers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main forms\AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main forms\DirectorMenu.resx">
+      <DependentUpon>DirectorMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\AlertForm.resx">
+      <DependentUpon>AlertForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Child forms\Managers.resx">
+      <DependentUpon>Managers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\HelpAndManual.resx">
+      <DependentUpon>HelpAndManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Main forms\CommodityExpertMenu.resx">
+      <DependentUpon>CommodityExpertMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\ProductsList.resx">
+      <DependentUpon>ProductsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\RemainsList.resx">
+      <DependentUpon>RemainsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\ViewProductForm.resx">
+      <DependentUpon>ViewProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secondary forms\ViewSupplierForm.resx">
+      <DependentUpon>ViewSupplierForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DiplomaTestDataSetBillsOfLadingMain.xsc">
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingMain.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetBillsOfLadingMain.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetBillsOfLadingMain.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetBillsOfLadingMain.xss">
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingMain.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetBillsOfLadingSecondary.xsc">
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetBillsOfLadingSecondary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetBillsOfLadingSecondary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetBillsOfLadingSecondary.xss">
+      <DependentUpon>DiplomaTestDataSetBillsOfLadingSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetCheque.xsc">
+      <DependentUpon>DiplomaTestDataSetCheque.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetCheque.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetCheque.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetCheque.xss">
+      <DependentUpon>DiplomaTestDataSetCheque.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetChequeView.xsc">
+      <DependentUpon>DiplomaTestDataSetChequeView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetChequeView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetChequeView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetChequeView.xss">
+      <DependentUpon>DiplomaTestDataSetChequeView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetChequeViewSecond.xsc">
+      <DependentUpon>DiplomaTestDataSetChequeViewSecond.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetChequeViewSecond.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetChequeViewSecond.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetChequeViewSecond.xss">
+      <DependentUpon>DiplomaTestDataSetChequeViewSecond.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLSecondary.xsc">
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLSecondary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetDisbursementBOLSecondary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLSecondary.xss">
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLView.xsc">
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetDisbursementBOLView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetDisbursementBOLView.xss">
+      <DependentUpon>DiplomaTestDataSetDisbursementBOLView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersView.xsc">
+      <DependentUpon>DiplomaTestDataSetOrdersView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetOrdersView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersView.xss">
+      <DependentUpon>DiplomaTestDataSetOrdersView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewMain.xsc">
+      <DependentUpon>DiplomaTestDataSetOrdersViewMain.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewMain.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetOrdersViewMain.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewMain.xss">
+      <DependentUpon>DiplomaTestDataSetOrdersViewMain.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewSecondary.xsc">
+      <DependentUpon>DiplomaTestDataSetOrdersViewSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewSecondary.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetOrdersViewSecondary.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetOrdersViewSecondary.xss">
+      <DependentUpon>DiplomaTestDataSetOrdersViewSecondary.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProducts.xsc">
+      <DependentUpon>DiplomaTestDataSetProducts.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProducts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetProducts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetProducts.xss">
+      <DependentUpon>DiplomaTestDataSetProducts.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForCashier.xsc">
+      <DependentUpon>DiplomaTestDataSetProductsForCashier.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForCashier.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetProductsForCashier.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForCashier.xss">
+      <DependentUpon>DiplomaTestDataSetProductsForCashier.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForDBOL.xsc">
+      <DependentUpon>DiplomaTestDataSetProductsForDBOL.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForDBOL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetProductsForDBOL.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetProductsForDBOL.xss">
+      <DependentUpon>DiplomaTestDataSetProductsForDBOL.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsFullView.xsc">
+      <DependentUpon>DiplomaTestDataSetRemainsFullView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsFullView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetRemainsFullView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsFullView.xss">
+      <DependentUpon>DiplomaTestDataSetRemainsFullView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsView.xsc">
+      <DependentUpon>DiplomaTestDataSetRemainsView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsView.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetRemainsView.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetRemainsView.xss">
+      <DependentUpon>DiplomaTestDataSetRemainsView.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetSuppliers.xsc">
+      <DependentUpon>DiplomaTestDataSetSuppliers.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetSuppliers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetSuppliers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetSuppliers.xss">
+      <DependentUpon>DiplomaTestDataSetSuppliers.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetUsers.xsc">
+      <DependentUpon>DiplomaTestDataSetUsers.xsd</DependentUpon>
+    </None>
+    <None Include="DiplomaTestDataSetUsers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DiplomaTestDataSetUsers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DiplomaTestDataSetUsers.xss">
+      <DependentUpon>DiplomaTestDataSetUsers.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendarWhite.png" />
+    <None Include="Resources\calendarDark.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DiplomaTestDataSetDisbursementBOLView" targetNamespace="http://tempuri.org/DiplomaTestDataSetDisbursementBOLView.xsd" xmlns:mstns="http://tempuri.org/DiplomaTestDataSetDisbursementBOLView.xsd" xmlns="http://tempuri.org/DiplomaTestDataSetDisbursementBOLView.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DiplomaTestConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DiplomaTestConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DiplomaTest.Properties.Settings.GlobalReference.Default.DiplomaTestConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DisbursementBOLViewTableAdapter" GeneratorDataComponentClassName="DisbursementBOLViewTableAdapter" Name="DisbursementBOLView" UserDataComponentName="DisbursementBOLViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DiplomaTestConnectionString (Settings)" DbObjectName="dbo.DisbursementBOLView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT DisbursementBOL_ID, Date, Name, FullName FROM dbo.DisbursementBOLView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DisbursementBOL_ID" DataSetColumn="DisbursementBOL_ID" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="FullName" DataSetColumn="FullName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DiplomaTestDataSetDisbursementBOLView" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DiplomaTestDataSetDisbursementBOLView" msprop:Generator_UserDSName="DiplomaTestDataSetDisbursementBOLView">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DisbursementBOLView" msprop:Generator_TableClassName="DisbursementBOLViewDataTable" msprop:Generator_TableVarName="tableDisbursementBOLView" msprop:Generator_TablePropName="DisbursementBOLView" msprop:Generator_RowDeletingName="DisbursementBOLViewRowDeleting" msprop:Generator_RowChangingName="DisbursementBOLViewRowChanging" msprop:Generator_RowEvHandlerName="DisbursementBOLViewRowChangeEventHandler" msprop:Generator_RowDeletedName="DisbursementBOLViewRowDeleted" msprop:Generator_UserTableName="DisbursementBOLView" msprop:Generator_RowChangedName="DisbursementBOLViewRowChanged" msprop:Generator_RowEvArgName="DisbursementBOLViewRowChangeEvent" msprop:Generator_RowClassName="DisbursementBOLViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DisbursementBOL_ID" msprop:Generator_ColumnVarNameInTable="columnDisbursementBOL_ID" msprop:Generator_ColumnPropNameInRow="DisbursementBOL_ID" msprop:Generator_ColumnPropNameInTable="DisbursementBOL_IDColumn" msprop:Generator_UserColumnName="DisbursementBOL_ID" type="xs:int" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FullName" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_UserColumnName="FullName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="98" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DisbursementBOLView" />
+      <xs:field xpath="mstns:DisbursementBOL_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

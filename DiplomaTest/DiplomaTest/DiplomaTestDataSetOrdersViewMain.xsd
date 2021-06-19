@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DiplomaTestDataSetOrdersViewMain" targetNamespace="http://tempuri.org/DiplomaTestDataSetOrdersViewMain.xsd" xmlns:mstns="http://tempuri.org/DiplomaTestDataSetOrdersViewMain.xsd" xmlns="http://tempuri.org/DiplomaTestDataSetOrdersViewMain.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DiplomaTestConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DiplomaTestConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DiplomaTest.Properties.Settings.GlobalReference.Default.DiplomaTestConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="OrdersViewMainTableAdapter" GeneratorDataComponentClassName="OrdersViewMainTableAdapter" Name="OrdersViewMain" UserDataComponentName="OrdersViewMainTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DiplomaTestConnectionString (Settings)" DbObjectName="dbo.OrdersViewMain" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Order_ID, CustomerFullName, OrderDate, DeliveryDate, Status, Name FROM dbo.OrdersViewMain</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Order_ID" DataSetColumn="Order_ID" />
+              <Mapping SourceColumn="CustomerFullName" DataSetColumn="CustomerFullName" />
+              <Mapping SourceColumn="OrderDate" DataSetColumn="OrderDate" />
+              <Mapping SourceColumn="DeliveryDate" DataSetColumn="DeliveryDate" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DiplomaTestDataSetOrdersViewMain" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DiplomaTestDataSetOrdersViewMain" msprop:Generator_UserDSName="DiplomaTestDataSetOrdersViewMain">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="OrdersViewMain" msprop:Generator_TableClassName="OrdersViewMainDataTable" msprop:Generator_TableVarName="tableOrdersViewMain" msprop:Generator_TablePropName="OrdersViewMain" msprop:Generator_RowDeletingName="OrdersViewMainRowDeleting" msprop:Generator_RowChangingName="OrdersViewMainRowChanging" msprop:Generator_RowEvHandlerName="OrdersViewMainRowChangeEventHandler" msprop:Generator_RowDeletedName="OrdersViewMainRowDeleted" msprop:Generator_UserTableName="OrdersViewMain" msprop:Generator_RowChangedName="OrdersViewMainRowChanged" msprop:Generator_RowEvArgName="OrdersViewMainRowChangeEvent" msprop:Generator_RowClassName="OrdersViewMainRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Order_ID" msprop:Generator_ColumnVarNameInTable="columnOrder_ID" msprop:Generator_ColumnPropNameInRow="Order_ID" msprop:Generator_ColumnPropNameInTable="Order_IDColumn" msprop:Generator_UserColumnName="Order_ID" type="xs:int" />
+              <xs:element name="CustomerFullName" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCustomerFullName" msprop:Generator_ColumnPropNameInRow="CustomerFullName" msprop:Generator_ColumnPropNameInTable="CustomerFullNameColumn" msprop:Generator_UserColumnName="CustomerFullName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="98" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OrderDate" msprop:Generator_ColumnVarNameInTable="columnOrderDate" msprop:Generator_ColumnPropNameInRow="OrderDate" msprop:Generator_ColumnPropNameInTable="OrderDateColumn" msprop:Generator_UserColumnName="OrderDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DeliveryDate" msprop:Generator_ColumnVarNameInTable="columnDeliveryDate" msprop:Generator_ColumnPropNameInRow="DeliveryDate" msprop:Generator_ColumnPropNameInTable="DeliveryDateColumn" msprop:Generator_UserColumnName="DeliveryDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="32" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:OrdersViewMain" />
+      <xs:field xpath="mstns:Order_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

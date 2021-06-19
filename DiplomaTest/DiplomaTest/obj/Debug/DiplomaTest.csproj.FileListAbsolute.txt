@@ -1,0 +1,213 @@
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Products.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Properties.Resources.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewProductForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewSupplierForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.GenerateResource.cache
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CoreCompileInputs.cache
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe.config
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\EasyTabs.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Svg.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\EasyTabs.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Svg.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Svg.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CopyComplete
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.exe
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.pdb
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewSupplierForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewUserForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Cashiers.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.CommodityExperts.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.DeputyDirectors.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Directors.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Suppliers.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.AdminMenu.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DirectorMenu.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AlertForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Managers.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_froms.HelpAndManual.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.LoginForm.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CommodityExpertMenu.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Suppliers2.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Orders.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.Orders.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.NewOrder.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StoreInfo.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ReceiptsStat.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.BillsOfLading.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewBillOfLading.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ProductsList.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Remains.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.BillsOfLadingViewEdit.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CashierMenu.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.DisbursementBillOfLading.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewDisbursementBillOfLading.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.RemainsList.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csprojAssemblyReference.cache
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DeputyDirectorMenu.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ImplementationStat.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ChequeView.resources
+C:\Users\kosty\source\repos\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StaleProducts.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe.config
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\EasyTabs.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Guna.UI.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Svg.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.dll
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\EasyTabs.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Svg.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Svg.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.xml
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.pdb
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csprojAssemblyReference.cache
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.BillsOfLading.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.DisbursementBillOfLading.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ImplementationStat.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Orders.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ReceiptsStat.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Remains.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StaleProducts.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StoreInfo.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CashierMenu.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DeputyDirectorMenu.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewBillOfLading.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewDisbursementBillOfLading.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.BillsOfLadingViewEdit.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ChequeView.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.NewOrder.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.Orders.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Products.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Suppliers2.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewSupplierForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewUserForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Cashiers.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.CommodityExperts.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.DeputyDirectors.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Directors.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Suppliers.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.AdminMenu.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DirectorMenu.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AlertForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Managers.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_froms.HelpAndManual.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.LoginForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Properties.Resources.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CommodityExpertMenu.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ProductsList.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.RemainsList.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewProductForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewSupplierForm.resources
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.GenerateResource.cache
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CoreCompileInputs.cache
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CopyComplete
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.exe
+C:\Users\kosty\Desktop\Итог флешка\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe.config
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.exe
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\DiplomaTest.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\FontAwesome.Sharp.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Svg.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\System.ComponentModel.Annotations.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.dll
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\EPPlus.xml
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Svg.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Svg.xml
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Dwmapi.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Gdi32.xml
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Kernel32.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.User32.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\bin\Debug\Win32Interop.Uxtheme.pdb
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csprojAssemblyReference.cache
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.BillsOfLading.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.DisbursementBillOfLading.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ImplementationStat.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Orders.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.ReceiptsStat.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Remains.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StaleProducts.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.StoreInfo.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CashierMenu.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DeputyDirectorMenu.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewBillOfLading.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditNewDisbursementBillOfLading.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.BillsOfLadingViewEdit.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ChequeView.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.NewOrder.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.Orders.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Products.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_forms.Suppliers2.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewSupplierForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AddEditViewUserForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Cashiers.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.CommodityExperts.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.DeputyDirectors.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Directors.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Suppliers.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.AdminMenu.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.DirectorMenu.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.AlertForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Child_froms.Managers.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_froms.HelpAndManual.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.LoginForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Properties.Resources.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Main_forms.CommodityExpertMenu.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ProductsList.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.RemainsList.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewProductForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.Secondary_forms.ViewSupplierForm.resources
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.GenerateResource.cache
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CoreCompileInputs.cache
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.csproj.CopyComplete
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.exe
+D:\GitHub\Diploma\DiplomaTest\DiplomaTest\obj\Debug\DiplomaTest.pdb

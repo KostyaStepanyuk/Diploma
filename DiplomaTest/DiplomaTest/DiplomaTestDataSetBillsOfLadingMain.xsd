@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DiplomaTestDataSetBillsOfLadingMain" targetNamespace="http://tempuri.org/DiplomaTestDataSetBillsOfLadingMain.xsd" xmlns:mstns="http://tempuri.org/DiplomaTestDataSetBillsOfLadingMain.xsd" xmlns="http://tempuri.org/DiplomaTestDataSetBillsOfLadingMain.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="DiplomaTestConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="DiplomaTestConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.DiplomaTest.Properties.Settings.GlobalReference.Default.DiplomaTestConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="BillsOfLadingMainTableAdapter" GeneratorDataComponentClassName="BillsOfLadingMainTableAdapter" Name="BillsOfLadingMain" UserDataComponentName="BillsOfLadingMainTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="DiplomaTestConnectionString (Settings)" DbObjectName="dbo.BillsOfLadingMain" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT BillOfLading_ID, Order_ID, DeliveryDate, UserName FROM dbo.BillsOfLadingMain</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="BillOfLading_ID" DataSetColumn="BillOfLading_ID" />
+              <Mapping SourceColumn="Order_ID" DataSetColumn="Order_ID" />
+              <Mapping SourceColumn="DeliveryDate" DataSetColumn="DeliveryDate" />
+              <Mapping SourceColumn="UserName" DataSetColumn="UserName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DiplomaTestDataSetBillsOfLadingMain" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="DiplomaTestDataSetBillsOfLadingMain" msprop:Generator_UserDSName="DiplomaTestDataSetBillsOfLadingMain">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BillsOfLadingMain" msprop:Generator_TableClassName="BillsOfLadingMainDataTable" msprop:Generator_TableVarName="tableBillsOfLadingMain" msprop:Generator_TablePropName="BillsOfLadingMain" msprop:Generator_RowDeletingName="BillsOfLadingMainRowDeleting" msprop:Generator_RowChangingName="BillsOfLadingMainRowChanging" msprop:Generator_RowEvHandlerName="BillsOfLadingMainRowChangeEventHandler" msprop:Generator_RowDeletedName="BillsOfLadingMainRowDeleted" msprop:Generator_UserTableName="BillsOfLadingMain" msprop:Generator_RowChangedName="BillsOfLadingMainRowChanged" msprop:Generator_RowEvArgName="BillsOfLadingMainRowChangeEvent" msprop:Generator_RowClassName="BillsOfLadingMainRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BillOfLading_ID" msprop:Generator_ColumnVarNameInTable="columnBillOfLading_ID" msprop:Generator_ColumnPropNameInRow="BillOfLading_ID" msprop:Generator_ColumnPropNameInTable="BillOfLading_IDColumn" msprop:Generator_UserColumnName="BillOfLading_ID" type="xs:int" />
+              <xs:element name="Order_ID" msprop:Generator_ColumnVarNameInTable="columnOrder_ID" msprop:Generator_ColumnPropNameInRow="Order_ID" msprop:Generator_ColumnPropNameInTable="Order_IDColumn" msprop:Generator_UserColumnName="Order_ID" type="xs:int" />
+              <xs:element name="DeliveryDate" msprop:Generator_ColumnVarNameInTable="columnDeliveryDate" msprop:Generator_ColumnPropNameInRow="DeliveryDate" msprop:Generator_ColumnPropNameInTable="DeliveryDateColumn" msprop:Generator_UserColumnName="DeliveryDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UserName" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_UserColumnName="UserName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="98" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
